@@ -9,14 +9,14 @@ export function IndustriesSection() {
           <span className="kicker-rule" />
         </div>
         <h2>
-          Built for businesses
+          Businesses
           <br />
-          <em>ready to move.</em>
+          <em>we work with.</em>
         </h2>
         <p>
-          We work with established enterprises and ambitious growth-stage
-          businesses looking to professionalize their supply chain function and
-          grow with confidence.
+          Kedarnath works with established companies and growing businesses
+          that want to improve how they source, make and deliver their
+          products.
         </p>
       </div>
       <div className="industry-list">

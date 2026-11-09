@@ -266,31 +266,6 @@ h2 em {
   left: 11%;
 }
 
-.art-stamp {
-  position: absolute;
-  top: 4%;
-  left: 8%;
-  z-index: 3;
-  display: flex;
-  width: 82px;
-  height: 82px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(53, 86, 72, 0.45);
-  border-radius: 50%;
-  color: var(--green);
-  font-size: 7px;
-  letter-spacing: 0.17em;
-  transform: rotate(-12deg);
-}
-
-.stamp-star {
-  margin: 2px 0;
-  font-size: 18px;
-  line-height: 1;
-}
-
 .art-card {
   position: absolute;
   z-index: 2;
@@ -372,22 +347,6 @@ h2 em {
   width: 29px;
   height: 1px;
   background: #a4b18e;
-}
-
-.art-card-note {
-  right: -1%;
-  bottom: 12%;
-  display: flex;
-  min-width: 154px;
-  align-items: center;
-  gap: 12px;
-  padding: 16px 18px;
-  background: var(--lime);
-  color: var(--ink);
-  font-family: var(--serif);
-  font-size: 16px;
-  line-height: 1.1;
-  transform: rotate(4deg);
 }
 
 .hero-index {

@@ -35,9 +35,9 @@ export function ContactSection() {
             <em>not a sales pitch.</em>
           </h2>
           <p className="contact-intro">
-            If your supply chain is holding back growth, tying up cash or
-            exposing your business to risk, let’s talk about what could work
-            better.
+            Tell us what is not working, whether it is excess stock, supplier
+            problems, delivery delays or product approvals. We can discuss
+            where to start.
           </p>
         </div>
         <div className="contact-direct">
@@ -56,8 +56,8 @@ export function ContactSection() {
 
       <form className="contact-form section-wrap" onSubmit={handleSubmit}>
         <div className="form-heading">
-          <span>HAVE SOMETHING IN MIND?</span>
-          <p>Share a little context and we’ll take it from there.</p>
+          <span>GET IN TOUCH</span>
+          <p>Tell us a little about your business and where you need help.</p>
         </div>
         <div className="form-fields">
           <label>
@@ -97,11 +97,11 @@ export function ContactSection() {
           <div className="form-submit-row">
             <p aria-live="polite">
               {submitted
-                ? "Your email app should open with your enquiry. You can also email us directly."
-                : "Submitting opens a pre-filled email in your email app."}
+                ? "Your email app should open with a draft. You can also email Kedarnath directly."
+                : "Your email app will open with your message ready to send."}
             </p>
             <button className="button button-light" type="submit">
-              Prepare an enquiry
+              Write an email
             </button>
           </div>
         </div>

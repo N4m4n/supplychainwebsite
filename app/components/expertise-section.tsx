@@ -20,15 +20,15 @@ export function ExpertiseSection() {
         <div className="section-kicker section-kicker-light">
           <span>02 / WHAT WE DO</span>
           <span className="kicker-rule" />
-          <span>Two connected disciplines</span>
+          <span>Two areas of support</span>
         </div>
         <div className="expertise-heading">
           <h2>
-            Focused expertise.
+            Supply chain advice.
             <br />
-            <em>Practical outcomes.</em>
+            <em>Product registration help.</em>
           </h2>
-          <p>Choose a focus to explore the ways we help teams move forward.</p>
+          <p>Select a service to see what the work involves.</p>
         </div>
 
         <div className="service-tabs" role="tablist" aria-label="Service areas">
@@ -83,14 +83,11 @@ export function ExpertiseSection() {
           ))}
         </div>
 
-        {activeService === "regulatory" && (
-          <RegulatoryRoadmap />
-        )}
+        {activeService === "regulatory" && <RegulatoryRoadmap />}
 
         <p className="service-note">
-          Regulatory pathways depend on product category, manufacturing model
-          and current agency requirements. We confirm the applicable scope with
-          you before work begins.
+          Requirements vary by product and manufacturing location. We’ll
+          confirm the relevant steps with you before work begins.
         </p>
       </div>
     </section>
@@ -102,7 +99,7 @@ function RegulatoryRoadmap() {
     <div className="regulatory-roadmap">
       <div className="roadmap-heading">
         <span>NAFDAC FOOD REGISTRATION</span>
-        <p>A five-stage pathway, managed from readiness to approval.</p>
+        <p>Applications typically pass through these five stages.</p>
       </div>
       <div className="roadmap-stages">
         {regulatoryStages.map((stage) => (

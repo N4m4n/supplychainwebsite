@@ -7,22 +7,22 @@ export function ApproachSection() {
       </div>
       <div className="intro-grid">
         <h2>
-          Stronger systems
+          Start with the problem.
           <br />
-          start with <em>clear thinking.</em>
+          <em>Work out the next step.</em>
         </h2>
         <div className="intro-copy">
           <p>
-            The best strategy is one that works on the ground. SAMPLE helps
-            leadership teams address the operational friction, working capital
-            pressure and regulatory complexity that can quietly slow growth.
+            We help businesses resolve supply chain and product registration
+            issues. This could mean too much stock, supplier problems, delivery
+            delays or questions about registering a product in Nigeria.
           </p>
           <p>
-            Start with the real constraint. Build a plan with the people closest
-            to it. Then stay close enough to make progress stick.
+            We review the situation with your team, agree on the next steps and
+            support you as you put them into practice.
           </p>
           <a className="text-link" href="#contact">
-            Tell us what you’re working through
+            Tell us what you need help with
           </a>
         </div>
       </div>

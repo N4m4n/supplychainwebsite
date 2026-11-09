@@ -3,41 +3,41 @@ export const supplyChainServices = [
     number: "01",
     title: "Inventory & working capital",
     description:
-      "Free up cash tied in stock while protecting availability, service levels and customer trust.",
+      "Find ways to reduce excess stock without leaving customers short of the products they need.",
     detail:
-      "Understand where inventory is building, improve planning discipline and find practical ways to release working capital without creating avoidable stock-outs.",
+      "Review stock levels and planning practices to see where cash is tied up and where changes can be made without causing stock-outs.",
   },
   {
     number: "02",
     title: "Procurement & vendor strategy",
     description:
-      "Build supplier relationships that deliver reliability and fair value—not just a lower unit cost.",
+      "Choose and manage suppliers for dependable service and fair value, not price alone.",
     detail:
-      "Review sourcing, supplier performance and commercial priorities to strengthen the supply base and reduce preventable disruption.",
+      "Look at sourcing, supplier performance and commercial terms, then agree where stronger relationships or different options could help.",
   },
   {
     number: "03",
     title: "Logistics & distribution",
     description:
-      "Move products to market faster and more predictably, including across difficult last-mile terrain.",
+      "Improve how products move through transport, warehousing and last-mile delivery.",
     detail:
-      "Work through the real constraints in transport, warehousing and distribution to make service more consistent and operations more responsive.",
+      "Identify delays and service gaps across transport, warehousing and distribution, then work with your team on practical improvements.",
   },
   {
     number: "04",
     title: "Supply chain risk",
     description:
-      "Address currency shifts, port delays and supplier failure before they become crises.",
+      "Prepare for disruptions such as currency changes, port delays and supplier failure.",
     detail:
-      "Map critical exposures, prioritize practical mitigations and help teams prepare for the disruptions most likely to affect their business.",
+      "Identify the risks most likely to affect your operations and decide what can be done before they interrupt supply.",
   },
   {
     number: "05",
     title: "Network design",
     description:
-      "Structure supply chains that can scale with growth instead of breaking under it.",
+      "Plan a supply chain that can support the business as it grows.",
     detail:
-      "Assess how sourcing, production, inventory and distribution fit together, then shape a network aligned to business needs and local realities.",
+      "Review how sourcing, production, stock and distribution fit together, then consider what needs to change to support your plans.",
   },
 ];
 
@@ -46,41 +46,41 @@ export const regulatoryServices = [
     number: "01",
     title: "Portfolio & dossier readiness",
     description:
-      "Audit SKUs, certificates, expiry dates and pending changes before a submission begins.",
+      "Check product documents, certificates and expiry dates before you submit.",
     detail:
-      "Build a clear product-by-product view, review supporting documents and identify gaps early so the team knows what is needed before filing.",
+      "Review each product's file, note missing or outdated documents, and make a checklist of what is needed for filing.",
   },
   {
     number: "02",
     title: "Labels, samples & testing",
     description:
-      "Coordinate label review, sample logistics and laboratory test plans.",
+      "Review labels and coordinate product samples and laboratory testing.",
     detail:
-      "Review label artwork before print, organize sample requirements and manage test plans and sample movement through the process.",
+      "Check label artwork before printing, confirm sample requirements and coordinate testing and sample delivery.",
   },
   {
     number: "03",
     title: "NAFDAC & SON pathways",
     description:
-      "Navigate the relevant registration, certification and inspection requirements for each product.",
+      "Understand which registration, certification and inspection steps apply to your products.",
     detail:
-      "Support the appropriate route for imported or locally made products, including document preparation, inspection readiness and agency follow-up. Requirements depend on the product and current agency guidance.",
+      "Prepare for the relevant process for imported or locally made products, including documents, inspections and agency follow-up. Requirements vary by product and should be confirmed against current agency guidance.",
   },
   {
     number: "04",
     title: "Submission follow-through",
     description:
-      "Track progress, respond to queries and keep the launch calendar tied to approvals.",
+      "Track applications, respond to agency questions and plan launches around approvals.",
     detail:
-      "Maintain visibility from submission through agency review. Advertising permits are separate approvals, so campaign timing should account for the applicable approvals.",
+      "Follow the application through agency review and keep the team updated. Advertising permits are separate approvals, so campaign plans should allow time for them too.",
   },
   {
     number: "05",
     title: "Renewals & change control",
     description:
-      "Keep registrations current with SKU-level expiry tracking and early alerts.",
+      "Track registration expiry dates and changes to products or packaging.",
     detail:
-      "Track renewals, inspections and changes to formula or pack so relevant regulatory steps are identified and managed in good time.",
+      "Keep a record of renewals, inspections and changes to formulas or packs, and identify any regulatory steps early.",
   },
 ];
 
@@ -88,55 +88,55 @@ export const regulatoryStages = [
   {
     number: "01",
     title: "Entity & dossier",
-    description: "Confirm the applicant and assemble a complete product file.",
+    description: "Confirm the applicant and prepare the product documents.",
   },
   {
     number: "02",
     title: "Screening",
     description:
-      "Review documents, certificates and label artwork for completeness.",
+      "Check documents, certificates and label artwork.",
   },
   {
     number: "03",
     title: "Sample analysis",
-    description: "Coordinate required sample testing and NAFDAC analysis.",
+    description: "Arrange sample testing and NAFDAC analysis.",
   },
   {
     number: "04",
     title: "Facility inspection",
-    description: "Prepare for GMP review where required, locally or overseas.",
+    description: "Prepare for a GMP inspection where one is required.",
   },
   {
     number: "05",
     title: "Approval",
-    description: "Track the registration decision and certificate.",
+    description: "Follow the application through to a decision.",
   },
 ];
 
 export const processSteps = [
   {
     number: "01",
-    title: "Diagnose",
+    title: "Understand",
     description:
-      "Understand the real constraints—financial, operational and cultural—before recommending a fix.",
+      "Learn what is getting in the way, from operations and finances to how the team works.",
   },
   {
     number: "02",
-    title: "Prepare",
+    title: "Plan together",
     description:
-      "Build a grounded plan with your team: priorities, owners, documentation and practical next steps.",
+      "Agree priorities, responsibilities and practical next steps with your team.",
   },
   {
     number: "03",
-    title: "Move forward",
+    title: "Put it into practice",
     description:
-      "Support execution, track progress and resolve issues as the work moves from plan to practice.",
+      "Stay involved as the plan is put to work, helping track progress and resolve issues.",
   },
   {
     number: "04",
-    title: "Sustain",
+    title: "Keep it working",
     description:
-      "Strengthen team capability and put the routines in place to keep improvements on track.",
+      "Build useful team routines so improvements continue after the engagement.",
   },
 ];
 

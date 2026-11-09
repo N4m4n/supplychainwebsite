@@ -126,19 +126,6 @@
     padding: 18px 17px 14px;
   }
 
-  .art-card-note {
-    right: 0;
-    min-width: 137px;
-    padding: 13px 15px;
-    font-size: 14px;
-  }
-
-  .art-stamp {
-    width: 69px;
-    height: 69px;
-    font-size: 6px;
-  }
-
   .hero-index {
     right: 24px;
     bottom: 27px;
@@ -408,10 +395,6 @@
   .art-card-main {
     width: 79%;
     left: 10%;
-  }
-
-  .art-card-note {
-    right: -2%;
   }
 
   .service-tabs {

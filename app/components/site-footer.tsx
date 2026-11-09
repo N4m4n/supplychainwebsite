@@ -7,7 +7,7 @@ export function SiteFooter() {
         </span>
         <span>SAMPLE</span>
       </a>
-      <p>Thoughtful advisory for complex supply chains.</p>
+      <p>Supply chain and regulatory support for businesses in Africa.</p>
       <a className="back-top" href="#home">
         Back to top ↑
       </a>

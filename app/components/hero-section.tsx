@@ -5,16 +5,16 @@ export function HeroSection() {
         <div className="hero-copy">
           <p className="eyebrow">
             <span className="eyebrow-line" />
-            Independent advisory · Nigeria & Africa
+            Supply chain and regulatory advice
           </p>
           <h1>
-            Make complexity
+            Supply chain advice.
             <br />
-            <span>work for you.</span>
+            <span>Nigeria product registration.</span>
           </h1>
           <p className="hero-intro">
-            Practical supply chain and regulatory advisory for businesses
-            building resilient operations and bringing products to market.
+            Helping businesses improve their supply chains and bring products
+            to market in Nigeria and across Africa.
           </p>
           <div className="hero-actions">
             <a className="button button-dark" href="#expertise">
@@ -26,7 +26,7 @@ export function HeroSection() {
           </div>
           <div className="hero-footnote">
             <span className="status-dot" />
-            Working across Nigeria, Africa & India
+            Based in Nigeria, working across Africa and India
           </div>
         </div>
         <div className="hero-art" aria-label="Supply chain advisory graphic">
@@ -34,13 +34,8 @@ export function HeroSection() {
           <div className="art-orbit orbit-two" />
           <div className="art-cross cross-one" />
           <div className="art-cross cross-two" />
-          <div className="art-stamp">
-            <span>STRATEGY</span>
-            <span className="stamp-star">✳</span>
-            <span>IN MOTION</span>
-          </div>
           <div className="art-card art-card-main">
-            <span className="art-card-label">SUPPLY CHAIN / 01</span>
+            <span className="art-card-label">HOW PRODUCTS MOVE</span>
             <div className="flow-map" aria-hidden="true">
               <span className="flow-node node-a" />
               <span className="flow-node node-b" />
@@ -57,23 +52,16 @@ export function HeroSection() {
               <span className="flow-line line-h" />
             </div>
             <div className="art-card-footer">
-              <span>From source</span>
+              <span>Supplier</span>
               <span className="footer-dash" />
-              <span>To scale</span>
+              <span>Customer</span>
             </div>
-          </div>
-          <div className="art-card art-card-note">
-            <span>
-              Clarity
-              <br />
-              into action
-            </span>
           </div>
         </div>
         <div className="hero-index">
           <span>01</span>
           <span className="index-rule" />
-          <span>ADVISORY, BUILT AROUND YOU</span>
+          <span>SUPPLY CHAIN & PRODUCT REGISTRATION</span>
         </div>
       </section>
       <ProofStrip />
@@ -89,23 +77,15 @@ function ProofStrip() {
           25<span>+</span>
         </span>
         <span className="proof-label">
-          years across global
-          <br />
-          & African supply chains
+          years working in global and African supply chains
         </span>
       </div>
       <p>
-        Global perspective. Local fluency.
-        <br />
-        Advice designed for the way business really works.
+        Experience across global supply chains and African markets.
       </p>
       <div className="proof-right">
         <span className="proof-spark">✳</span>
-        <span>
-          People-first.
-          <br />
-          Implementation-focused.
-        </span>
+        <span>Advice and help with implementation</span>
       </div>
     </section>
   );

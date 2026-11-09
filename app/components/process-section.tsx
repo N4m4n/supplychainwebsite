@@ -6,18 +6,18 @@ export function ProcessSection() {
       <div className="section-kicker">
         <span>03 / HOW WE WORK</span>
         <span className="kicker-rule" />
-        <span>Clear steps, shared ownership</span>
+        <span>Working together, step by step</span>
       </div>
       <div className="process-heading">
         <h2>
-          From the first question
+          We make a plan together,
           <br />
-          <em>to lasting change.</em>
+          <em>then see it through.</em>
         </h2>
         <p>
-          Every engagement is shaped around your priorities. The work is
-          collaborative, transparent and focused on building capability that
-          remains in-house.
+          We agree on the priorities with your team, work through them together
+          and share progress along the way. The aim is to leave your team with
+          processes it can keep using.
         </p>
       </div>
       <div className="process-grid">

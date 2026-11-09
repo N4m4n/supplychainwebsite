@@ -424,14 +424,6 @@
   line-height: 1;
 }
 
-.profile-caption {
-  position: absolute;
-  bottom: 29px;
-  color: #d0d8c6;
-  font-size: 7px;
-  letter-spacing: 0.17em;
-}
-
 .profile-corner {
   position: absolute;
   z-index: 1;
@@ -451,16 +443,6 @@
   right: 18px;
   bottom: 18px;
   border-width: 0 1px 1px 0;
-}
-
-.profile-side-note {
-  position: absolute;
-  right: 10%;
-  bottom: 12%;
-  color: #637367;
-  font-size: 7px;
-  letter-spacing: 0.16em;
-  writing-mode: vertical-rl;
 }
 
 .profile-copy {
@@ -547,4 +529,3 @@
   font-family: var(--serif);
   font-size: 17px;
 }
-
