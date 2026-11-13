@@ -3,37 +3,49 @@ export function ProfileSection() {
     <section className="profile-section" id="about">
       <div className="profile-art">
         <div className="profile-frame">
-          <div className="profile-monogram">KK</div>
+          <div className="profile-image-placeholder">
+            <span>IMAGE PLACEHOLDER</span>
+            <p>TODO: Add a founder/team photo, or replace with India-Nigeria trade imagery.</p>
+          </div>
           <span className="profile-corner corner-tl" />
           <span className="profile-corner corner-br" />
         </div>
       </div>
       <div className="profile-copy">
         <div className="section-kicker">
-          <span>04 / FOUNDER & ADVISOR</span>
+          <span>04 / ABOUT [COMPANY NAME]</span>
           <span className="kicker-rule" />
         </div>
-        <p className="profile-overline">FOUNDER & SUPPLY CHAIN ADVISOR</p>
+        <p className="profile-overline">A BRIDGE BETWEEN INDIA & NIGERIA</p>
         <h2>
-          Kedarnath
+          Your trusted partner
           <br />
-          <em>Kaushik.</em>
+          <em>in international trade.</em>
         </h2>
         <p className="profile-lead">
-          From hands-on operations to leading supply chains for multinational
-          businesses.
+          Shared global and Nigerian partnerships. One simpler way to import.
         </p>
         <p className="profile-description">
-          Kedarnath has worked in manufacturing, distribution and
-          multinational supply networks. He began in operations and went on
-          to lead end-to-end supply chain strategy. Today, he advises
-          businesses in Nigeria and across Africa, drawing on international
-          experience and an understanding of local operating conditions.
+          We combine international trade expertise with a practical
+          understanding of Nigerian regulations and business practices. Based
+          in Nigeria and India, our network helps businesses connect with
+          global markets through transparent, reliable import facilitation.
         </p>
-        <div className="profile-tags">
-          <span>Global experience</span>
-          <span>African markets</span>
-          <span>Direct support</span>
+        <div className="profile-values">
+          <div>
+            <h3>Our mission</h3>
+            <p>
+              Make cross-border trade more seamless and dependable with
+              reliable service, honest advice and accountable support.
+            </p>
+          </div>
+          <div>
+            <h3>Our vision</h3>
+            <p>
+              Become a trusted partner for businesses trading with Nigeria,
+              building a lasting bridge between Nigeria and global markets.
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -2,22 +2,21 @@ import { processSteps } from "../data/advisory";
 
 export function ProcessSection() {
   return (
-    <section className="process-section section-wrap">
+    <section className="process-section section-wrap" id="process">
       <div className="section-kicker">
-        <span>03 / HOW WE WORK</span>
+        <span>03 / HOW YOUR IMPORT WORKS</span>
         <span className="kicker-rule" />
         <span>Working together, step by step</span>
       </div>
       <div className="process-heading">
         <h2>
-          We make a plan together,
+          From supplier
           <br />
-          <em>then see it through.</em>
+          <em>to final delivery.</em>
         </h2>
         <p>
-          We agree on the priorities with your team, work through them together
-          and share progress along the way. The aim is to leave your team with
-          processes it can keep using.
+          One coordinated import journey. One responsible service partner.
+          Clear communication at every stage.
         </p>
       </div>
       <div className="process-grid">

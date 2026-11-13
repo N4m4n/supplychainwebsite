@@ -14,13 +14,11 @@ export function SiteHeader() {
       <a
         className="wordmark"
         href="#home"
-        aria-label="SAMPLE home"
+        aria-label="[Company Name] home"
         onClick={closeMenu}
       >
-        <span className="wordmark-mark" aria-hidden="true">
-          S
-        </span>
-        <span>SAMPLE</span>
+        <span className="wordmark-mark" aria-hidden="true">LOGO</span>
+        <span>[Company Name]</span>
       </a>
       <button
         className="menu-toggle"
@@ -38,17 +36,17 @@ export function SiteHeader() {
         id="primary-navigation"
         aria-label="Main navigation"
       >
-        <a href="#approach" onClick={closeMenu}>
-          Approach
+        <a href="#services" onClick={closeMenu}>
+          Services
         </a>
-        <a href="#expertise" onClick={closeMenu}>
-          Expertise
+        <a href="#process" onClick={closeMenu}>
+          How it works
         </a>
         <a href="#about" onClick={closeMenu}>
           About
         </a>
         <a className="nav-contact" href="#contact" onClick={closeMenu}>
-          Start a conversation
+          Request a consultation
         </a>
       </nav>
     </header>

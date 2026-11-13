@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SAMPLE | Supply Chain & Regulatory Advisory",
+  title: "[Company Name] | Nigeria Import Facilitation",
   description:
-    "Practical supply chain and Nigeria regulatory advisory from Kedarnath Kaushik.",
+    "One coordinated import journey into Nigeria, from overseas sourcing and freight to customs clearance and final delivery.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

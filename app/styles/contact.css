@@ -64,6 +64,14 @@
   font-size: 9px;
 }
 
+.whatsapp-note {
+  max-width: 260px;
+  margin: 0;
+  color: #b6c3b8;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
 .contact-form {
   display: grid;
   grid-template-columns: 0.7fr 1.3fr;
@@ -202,6 +210,32 @@
 
 .site-footer > p {
   color: #9eafa2;
+}
+
+.whatsapp-float {
+  position: fixed;
+  z-index: 30;
+  right: 22px;
+  bottom: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 99px;
+  background: var(--green);
+  box-shadow: 0 8px 24px rgba(29, 41, 37, 0.2);
+  color: #fff;
+  font-size: 12px;
+}
+
+.whatsapp-float > span {
+  color: var(--lime);
+  font-size: 9px;
+}
+
+.whatsapp-float:hover {
+  background: var(--green-dark);
 }
 
 .back-top {

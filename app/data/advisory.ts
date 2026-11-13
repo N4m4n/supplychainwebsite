@@ -1,149 +1,101 @@
-export const supplyChainServices = [
+export const importServices = [
   {
     number: "01",
-    title: "Inventory & working capital",
+    title: "Overseas Sourcing & Purchasing Support",
     description:
-      "Find ways to reduce excess stock without leaving customers short of the products they need.",
+      "Identify suppliers, coordinate purchasing and keep communication moving across borders.",
     detail:
-      "Review stock levels and planning practices to see where cash is tied up and where changes can be made without causing stock-outs.",
+      "Get support with supplier identification, purchasing coordination and clear communication with overseas suppliers.",
   },
   {
     number: "02",
-    title: "Procurement & vendor strategy",
+    title: "International Freight Procurement",
     description:
-      "Choose and manage suppliers for dependable service and fair value, not price alone.",
+      "Compare ocean and air freight options and coordinate international shipment arrangements.",
     detail:
-      "Look at sourcing, supplier performance and commercial terms, then agree where stronger relationships or different options could help.",
+      "Negotiate and arrange freight, with shipment options considered alongside the route, timing and destination.",
   },
   {
     number: "03",
-    title: "Logistics & distribution",
+    title: "Destination Agency Inspections",
     description:
-      "Improve how products move through transport, warehousing and last-mile delivery.",
+      "Coordinate relevant pre-shipment or destination-country inspections and verification.",
     detail:
-      "Identify delays and service gaps across transport, warehousing and distribution, then work with your team on practical improvements.",
+      "Inspection requirements depend on the product category. Food and FMCG products may follow different requirements from other goods.",
   },
   {
     number: "04",
-    title: "Supply chain risk",
+    title: "Nigerian Customs Clearance",
     description:
-      "Prepare for disruptions such as currency changes, port delays and supplier failure.",
+      "Coordinate import documentation and customs clearance at Nigerian ports and airports.",
     detail:
-      "Identify the risks most likely to affect your operations and decide what can be done before they interrupt supply.",
+      "Get help preparing import documentation and coordinating customs clearance with the relevant parties.",
   },
   {
     number: "05",
-    title: "Network design",
+    title: "Port-to-Warehouse Transportation",
     description:
-      "Plan a supply chain that can support the business as it grows.",
+      "Plan cargo movement after clearance, from port or airport to your warehouse.",
     detail:
-      "Review how sourcing, production, stock and distribution fit together, then consider what needs to change to support your plans.",
+      "Coordinate final delivery beyond the port, with clear communication on the next steps in the cargo journey.",
   },
-];
-
-export const regulatoryServices = [
   {
-    number: "01",
-    title: "Portfolio & dossier readiness",
+    number: "06",
+    title: "Trade Compliance & Certification",
     description:
-      "Check product documents, certificates and expiry dates before you submit.",
+      "Get support with applicable AEO, CKD Bonafide, SON, NAFDAC and trademark-related requirements.",
     detail:
-      "Review each product's file, note missing or outdated documents, and make a checklist of what is needed for filing.",
+      "The relevant requirements depend on the goods and import route. Confirm the applicable process for your products before proceeding.",
   },
   {
-    number: "02",
-    title: "Labels, samples & testing",
+    number: "07",
+    title: "Form M Processing",
     description:
-      "Review labels and coordinate product samples and laboratory testing.",
+      "Get assistance with import Form M documentation and processing.",
     detail:
-      "Check label artwork before printing, confirm sample requirements and coordinate testing and sample delivery.",
+      "Coordinate the documentation and processing steps needed for your import Form M.",
   },
   {
-    number: "03",
-    title: "NAFDAC & SON pathways",
+    number: "08",
+    title: "End-to-End Import Management",
     description:
-      "Understand which registration, certification and inspection steps apply to your products.",
+      "Coordinate the journey from supplier and inspection through shipping, clearance and final delivery.",
     detail:
-      "Prepare for the relevant process for imported or locally made products, including documents, inspections and agency follow-up. Requirements vary by product and should be confirmed against current agency guidance.",
-  },
-  {
-    number: "04",
-    title: "Submission follow-through",
-    description:
-      "Track applications, respond to agency questions and plan launches around approvals.",
-    detail:
-      "Follow the application through agency review and keep the team updated. Advertising permits are separate approvals, so campaign plans should allow time for them too.",
-  },
-  {
-    number: "05",
-    title: "Renewals & change control",
-    description:
-      "Track registration expiry dates and changes to products or packaging.",
-    detail:
-      "Keep a record of renewals, inspections and changes to formulas or packs, and identify any regulatory steps early.",
-  },
-];
-
-export const regulatoryStages = [
-  {
-    number: "01",
-    title: "Entity & dossier",
-    description: "Confirm the applicant and prepare the product documents.",
-  },
-  {
-    number: "02",
-    title: "Screening",
-    description:
-      "Check documents, certificates and label artwork.",
-  },
-  {
-    number: "03",
-    title: "Sample analysis",
-    description: "Arrange sample testing and NAFDAC analysis.",
-  },
-  {
-    number: "04",
-    title: "Facility inspection",
-    description: "Prepare for a GMP inspection where one is required.",
-  },
-  {
-    number: "05",
-    title: "Approval",
-    description: "Follow the application through to a decision.",
+      "One coordinated service partner keeps the stages connected and communication clear from origin to destination.",
   },
 ];
 
 export const processSteps = [
   {
     number: "01",
-    title: "Understand",
+    title: "Plan the import",
     description:
-      "Learn what is getting in the way, from operations and finances to how the team works.",
+      "Understand your product and route, coordinate sourcing, and identify the applicable documentation and compliance steps.",
   },
   {
     number: "02",
-    title: "Plan together",
+    title: "Inspect & ship",
     description:
-      "Agree priorities, responsibilities and practical next steps with your team.",
+      "Arrange relevant inspections and freight, and advise on port selection based on shipping-line options and congestion.",
   },
   {
     number: "03",
-    title: "Put it into practice",
+    title: "Clear & deliver",
     description:
-      "Stay involved as the plan is put to work, helping track progress and resolve issues.",
+      "Coordinate Nigerian customs clearance, regulatory documentation and cargo movement to your warehouse.",
   },
   {
     number: "04",
-    title: "Keep it working",
+    title: "Keep you informed",
     description:
-      "Build useful team routines so improvements continue after the engagement.",
+      "Share clear updates, responsibilities and costs at every stage of the import journey.",
   },
 ];
 
 export const industries = [
-  "Manufacturing",
-  "Agribusiness",
-  "FMCG & consumer goods",
-  "Retail & distribution",
-  "Industrial & energy",
+  "Food & FMCG",
+  "Other regulated product categories",
+  "Consumer goods",
+  "Manufacturers & distributors",
+  "Businesses importing into Nigeria",
 ];

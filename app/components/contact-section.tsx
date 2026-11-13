@@ -14,11 +14,11 @@ export function ContactSection() {
     const message = String(formData.get("message") ?? "");
     const subject = encodeURIComponent(`Website enquiry: ${focus}`);
     const body = encodeURIComponent(
-      `Hello Kedarnath,\n\n${message}\n\nName: ${name}\nEmail: ${email}\nArea of interest: ${focus}`,
+      `Hello,\n\n${message}\n\nName: ${name}\nEmail: ${email}\nArea of interest: ${focus}`,
     );
 
     setSubmitted(true);
-    window.location.href = `mailto:kaushikkedar.dk@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@ubantu.co.in?subject=${subject}&body=${body}`;
   }
 
   return (
@@ -26,31 +26,31 @@ export function ContactSection() {
       <div className="contact-top section-wrap">
         <div>
           <div className="section-kicker section-kicker-light">
-            <span>06 / LET’S TALK</span>
+            <span>06 / REQUEST AN IMPORT CONSULTATION</span>
             <span className="kicker-rule" />
           </div>
           <h2>
-            A conversation,
+            Let’s simplify
             <br />
-            <em>not a sales pitch.</em>
+            <em>your next import.</em>
           </h2>
           <p className="contact-intro">
-            Tell us what is not working, whether it is excess stock, supplier
-            problems, delivery delays or product approvals. We can discuss
-            where to start.
+            Tell us what you are importing, where you are sourcing it and
+            where you need support. We’ll discuss the requirements, next steps
+            and the costs to consider.
           </p>
         </div>
         <div className="contact-direct">
-          <span className="contact-direct-label">REACH KEDARNATH DIRECTLY</span>
-          <a href="mailto:kaushikkedar.dk@gmail.com">
-            kaushikkedar.dk@gmail.com
-          </a>
-          <a href="tel:+919311872626">
-            +91 93118 72626
+          <span className="contact-direct-label">CONTACT OUR TEAM</span>
+          <a href="mailto:info@ubantu.co.in">
+            info@ubantu.co.in
           </a>
           <span className="contact-location">
-            Lagos, Nigeria · Delhi, India · Across Africa
+            Nigeria · India · Global trade network
           </span>
+          <p className="whatsapp-note">
+            TODO: Add the company WhatsApp number and click-to-chat link.
+          </p>
         </div>
       </div>
 
@@ -80,8 +80,10 @@ export function ContactSection() {
               <option disabled value="">
                 Choose a focus
               </option>
-              <option>Supply chain advisory</option>
-              <option>Nigeria regulatory roadmap</option>
+              <option>Overseas sourcing or freight</option>
+              <option>Inspections or customs clearance</option>
+              <option>Trade compliance or Form M</option>
+              <option>End-to-end import management</option>
               <option>Something else</option>
             </select>
           </label>
@@ -97,7 +99,7 @@ export function ContactSection() {
           <div className="form-submit-row">
             <p aria-live="polite">
               {submitted
-                ? "Your email app should open with a draft. You can also email Kedarnath directly."
+                ? "Your email app should open with a draft. You can also email info@ubantu.co.in directly."
                 : "Your email app will open with your message ready to send."}
             </p>
             <button className="button button-light" type="submit">

@@ -27,10 +27,10 @@
   border: 1px solid var(--green);
   border-radius: 50%;
   color: var(--green);
-  font-family: var(--serif);
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .primary-navigation {
@@ -390,14 +390,14 @@ h2 em {
 
 .proof-number {
   font-family: var(--serif);
-  font-size: 52px;
+  font-size: clamp(31px, 3.5vw, 43px);
   letter-spacing: -0.06em;
   line-height: 1;
 }
 
 .proof-number span {
-  color: var(--lime);
-  font-size: 30px;
+  color: var(--saffron);
+  font-size: 0.72em;
 }
 
 .proof-label,

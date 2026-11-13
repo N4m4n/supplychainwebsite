@@ -169,6 +169,20 @@
     margin-top: 31px;
   }
 
+  .value-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 42px;
+  }
+
+  .value-card {
+    min-height: 170px;
+    padding: 18px;
+  }
+
+  .value-card h3 {
+    margin-top: 23px;
+  }
+
   .intro-grid h2,
   .expertise-heading h2,
   .process-heading h2,
@@ -295,6 +309,10 @@
 
   .profile-copy {
     padding: 67px 24px 74px;
+  }
+
+  .profile-values {
+    gap: 15px;
   }
 
   .profile-overline {
@@ -439,6 +457,35 @@
   .site-footer > p {
     max-width: 170px;
     line-height: 1.5;
+  }
+
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card {
+    min-height: 0;
+    padding: 17px 18px;
+  }
+
+  .value-card h3 {
+    margin-top: 17px;
+  }
+
+  .profile-values {
+    grid-template-columns: 1fr;
+  }
+
+  .whatsapp-float {
+    right: 12px;
+    bottom: 12px;
+    gap: 6px;
+    padding: 11px 12px;
+    font-size: 11px;
+  }
+
+  .whatsapp-float > span {
+    display: none;
   }
 }
 

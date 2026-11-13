@@ -67,6 +67,55 @@
   color: var(--green);
 }
 
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 65px;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.value-card {
+  position: relative;
+  min-height: 186px;
+  padding: 23px 24px 22px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.value-card > span {
+  color: var(--saffron);
+  font-size: 10px;
+  letter-spacing: 0.13em;
+}
+
+.value-card h3 {
+  max-width: 230px;
+  margin: 30px 0 9px;
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.value-card p {
+  max-width: 260px;
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.transparency-note {
+  max-width: 800px;
+  margin: 22px 0 0;
+  padding-left: 15px;
+  border-left: 2px solid var(--saffron);
+  color: var(--ink-muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
 .expertise-section {
   padding: 94px 0 96px;
   background: var(--green-dark);
@@ -409,19 +458,32 @@
   transform: rotate(-4deg);
 }
 
-.profile-frame::before {
+.profile-image-placeholder {
   position: absolute;
   inset: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
   border: 1px solid rgba(211, 220, 128, 0.45);
-  content: "";
+  color: #f2f0e7;
+  text-align: center;
 }
 
-.profile-monogram {
+.profile-image-placeholder > span {
   color: var(--lime);
-  font-family: var(--serif);
-  font-size: clamp(76px, 10vw, 132px);
-  letter-spacing: -0.1em;
-  line-height: 1;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.profile-image-placeholder > p {
+  max-width: 220px;
+  margin: 12px 0 0;
+  color: #d0d8ce;
+  font-size: 10px;
+  line-height: 1.7;
 }
 
 .profile-corner {
@@ -474,6 +536,29 @@
 
 .profile-description {
   margin-bottom: 22px;
+}
+
+.profile-values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.profile-values h3 {
+  margin: 0 0 8px;
+  color: var(--green);
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.profile-values p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 11px;
+  line-height: 1.7;
 }
 
 .profile-tags {

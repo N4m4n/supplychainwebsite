@@ -5,7 +5,7 @@ export function IndustriesSection() {
     <section className="industries-section section-wrap">
       <div className="industry-intro">
         <div className="section-kicker">
-          <span>05 / WHO WE WORK WITH</span>
+          <span>05 / INDUSTRIES & IMPORTERS</span>
           <span className="kicker-rule" />
         </div>
         <h2>
@@ -14,9 +14,9 @@ export function IndustriesSection() {
           <em>we work with.</em>
         </h2>
         <p>
-          Kedarnath works with established companies and growing businesses
-          that want to improve how they source, make and deliver their
-          products.
+          We support businesses importing food, FMCG and other goods into
+          Nigeria, with guidance tailored to the products and requirements
+          involved.
         </p>
       </div>
       <div className="industry-list">
