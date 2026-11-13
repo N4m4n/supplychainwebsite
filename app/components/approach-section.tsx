@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export function ApproachSection() {
   return (
     <section className="intro-section section-wrap" id="approach">
       <div className="section-kicker">
-        <span>01 / ONE IMPORT PARTNER</span>
+        <span>ONE IMPORT PARTNER</span>
         <span className="kicker-rule" />
       </div>
       <div className="intro-grid">
@@ -20,9 +22,9 @@ export function ApproachSection() {
             markets, we bring international trade know-how together with local
             knowledge of Nigerian regulations and business practices.
           </p>
-          <a className="text-link" href="#contact">
+          <Link className="text-link" href="/#contact">
             Request an import consultation
-          </a>
+          </Link>
         </div>
       </div>
       <div className="value-grid" aria-label="Import facilitation benefits">

@@ -5,7 +5,7 @@ export function IndustriesSection() {
     <section className="industries-section section-wrap">
       <div className="industry-intro">
         <div className="section-kicker">
-          <span>05 / INDUSTRIES & IMPORTERS</span>
+          <span>INDUSTRIES & IMPORTERS</span>
           <span className="kicker-rule" />
         </div>
         <h2>

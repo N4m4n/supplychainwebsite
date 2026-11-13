@@ -4,8 +4,8 @@ export function ProfileSection() {
       <div className="profile-art">
         <div className="profile-frame">
           <div className="profile-image-placeholder">
-            <span>IMAGE PLACEHOLDER</span>
-            <p>TODO: Add a founder/team photo, or replace with India-Nigeria trade imagery.</p>
+            <span>INDIA / NIGERIA</span>
+            <p>Global connections. Local knowledge.</p>
           </div>
           <span className="profile-corner corner-tl" />
           <span className="profile-corner corner-br" />
@@ -13,15 +13,15 @@ export function ProfileSection() {
       </div>
       <div className="profile-copy">
         <div className="section-kicker">
-          <span>04 / ABOUT [COMPANY NAME]</span>
+          <span>ABOUT [COMPANY NAME]</span>
           <span className="kicker-rule" />
         </div>
         <p className="profile-overline">A BRIDGE BETWEEN INDIA & NIGERIA</p>
-        <h2>
+        <h1>
           Your trusted partner
           <br />
           <em>in international trade.</em>
-        </h2>
+        </h1>
         <p className="profile-lead">
           Shared global and Nigerian partnerships. One simpler way to import.
         </p>

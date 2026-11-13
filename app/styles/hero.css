@@ -42,6 +42,7 @@
 }
 
 .primary-navigation > a:not(.nav-contact):hover,
+.primary-navigation > a[aria-current="page"]:not(.nav-contact),
 .text-link:hover,
 .back-top:hover {
   color: var(--green);

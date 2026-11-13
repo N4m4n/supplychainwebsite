@@ -182,7 +182,7 @@
   }
 
   .intro-grid h2,
-  .expertise-heading h2,
+  .expertise-heading h1,
   .process-heading h2,
   .industry-intro h2,
   .contact-top h2 {
@@ -317,7 +317,7 @@
     margin-top: 35px;
   }
 
-  .profile-copy h2 {
+  .profile-copy h1 {
     font-size: 56px;
   }
 

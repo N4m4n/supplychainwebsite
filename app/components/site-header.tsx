@@ -1,9 +1,12 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   function closeMenu() {
     setMenuOpen(false);
@@ -11,15 +14,15 @@ export function SiteHeader() {
 
   return (
     <header className="site-header">
-      <a
+      <Link
         className="wordmark"
-        href="#home"
+        href="/"
         aria-label="[Company Name] home"
         onClick={closeMenu}
       >
         <span className="wordmark-mark" aria-hidden="true">LOGO</span>
         <span>[Company Name]</span>
-      </a>
+      </Link>
       <button
         className="menu-toggle"
         type="button"
@@ -36,18 +39,37 @@ export function SiteHeader() {
         id="primary-navigation"
         aria-label="Main navigation"
       >
-        <a href="#services" onClick={closeMenu}>
-          Services
-        </a>
-        <a href="#process" onClick={closeMenu}>
-          How it works
-        </a>
-        <a href="#about" onClick={closeMenu}>
+        <Link
+          href="/"
+          aria-current={pathname === "/" ? "page" : undefined}
+          onClick={closeMenu}
+        >
+          Home
+        </Link>
+        <Link
+          href="/services"
+          aria-current={pathname === "/services" ? "page" : undefined}
+          onClick={closeMenu}
+        >
+          Our Services
+        </Link>
+        <Link
+          href="/team"
+          aria-current={pathname === "/team" ? "page" : undefined}
+          onClick={closeMenu}
+        >
+          Our team
+        </Link>
+        <Link
+          href="/about"
+          aria-current={pathname === "/about" ? "page" : undefined}
+          onClick={closeMenu}
+        >
           About
-        </a>
-        <a className="nav-contact" href="#contact" onClick={closeMenu}>
+        </Link>
+        <Link className="nav-contact" href="/#contact" onClick={closeMenu}>
           Request a consultation
-        </a>
+        </Link>
       </nav>
     </header>
   );

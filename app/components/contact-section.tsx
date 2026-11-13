@@ -26,7 +26,7 @@ export function ContactSection() {
       <div className="contact-top section-wrap">
         <div>
           <div className="section-kicker section-kicker-light">
-            <span>06 / REQUEST AN IMPORT CONSULTATION</span>
+            <span>REQUEST AN IMPORT CONSULTATION</span>
             <span className="kicker-rule" />
           </div>
           <h2>

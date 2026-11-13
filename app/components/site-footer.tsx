@@ -1,18 +1,20 @@
+import Link from "next/link";
+
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <a className="wordmark footer-wordmark" href="#home">
+      <Link className="wordmark footer-wordmark" href="/">
         <span className="wordmark-mark" aria-hidden="true">LOGO</span>
         <span>[Company Name]</span>
-      </a>
+      </Link>
       <p>One coordinated import journey between global markets and Nigeria.</p>
-      <a className="back-top" href="#home">
-        Back to top ↑
-      </a>
+      <Link className="back-top" href="/#home">
+        Back to home
+      </Link>
       <span className="footer-copyright">© 2026 [Company Name]</span>
-      <a className="whatsapp-float" href="#contact">
+      <Link className="whatsapp-float" href="/#contact">
         WhatsApp <span>TODO: add number</span>
-      </a>
+      </Link>
     </footer>
   );
 }

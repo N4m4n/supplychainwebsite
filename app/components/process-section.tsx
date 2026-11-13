@@ -4,7 +4,7 @@ export function ProcessSection() {
   return (
     <section className="process-section section-wrap" id="process">
       <div className="section-kicker">
-        <span>03 / HOW YOUR IMPORT WORKS</span>
+        <span>HOW YOUR IMPORT WORKS</span>
         <span className="kicker-rule" />
         <span>Working together, step by step</span>
       </div>

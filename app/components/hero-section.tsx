@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import homePageImage from "../assets/home_page_image.png";
 
 export function HeroSection() {
@@ -21,12 +22,12 @@ export function HeroSection() {
             service partner.
           </p>
           <div className="hero-actions">
-            <a className="button button-dark" href="#services">
+            <Link className="button button-dark" href="/services">
               Explore import services
-            </a>
-            <a className="text-link" href="#about">
-              About our team
-            </a>
+            </Link>
+            <Link className="text-link" href="/team">
+              Meet our team
+            </Link>
           </div>
           <div className="hero-footnote">
             <span className="status-dot" />
@@ -41,11 +42,6 @@ export function HeroSection() {
             sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1000px) 46vw, 40vw"
             src={homePageImage}
           />
-        </div>
-        <div className="hero-index">
-          <span>01</span>
-          <span className="index-rule" />
-          <span>ONE PARTNER. EVERY STEP OF YOUR IMPORT.</span>
         </div>
       </section>
       <ProofStrip />

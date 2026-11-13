@@ -5,15 +5,15 @@ export function ExpertiseSection() {
     <section className="expertise-section" id="services">
       <div className="section-wrap">
         <div className="section-kicker section-kicker-light">
-          <span>02 / OUR COMPLETE IMPORT SERVICES</span>
+          <span>OUR COMPLETE IMPORT SERVICES</span>
           <span className="kicker-rule" />
         </div>
         <div className="expertise-heading">
-          <h2>
+          <h1>
             Complete import solutions
             <br />
             <em>under one roof.</em>
-          </h2>
+          </h1>
           <p>Choose the support you need, or work with us to coordinate the full journey.</p>
         </div>
 
