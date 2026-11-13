@@ -1,3 +1,6 @@
+import Image from "next/image";
+import homePageImage from "../assets/home_page_image.png";
+
 export function HeroSection() {
   return (
     <>
@@ -10,7 +13,7 @@ export function HeroSection() {
           <h1>
             Everything your business needs
             <br />
-            <span>to import into Nigeria.</span>
+            <span>for international trade with West Africa.</span>
           </h1>
           <p className="hero-intro">
             From overseas sourcing and inspections to customs clearance and
@@ -30,38 +33,14 @@ export function HeroSection() {
             Nigeria-based coordination with India and global partners
           </div>
         </div>
-        <div
-          className="hero-art"
-          role="img"
-          aria-label="Illustration of the India-to-Nigeria import journey"
-        >
-          <div className="art-orbit orbit-one" />
-          <div className="art-orbit orbit-two" />
-          <div className="art-cross cross-one" />
-          <div className="art-cross cross-two" />
-          <div className="art-card art-card-main">
-            <span className="art-card-label">ONE COORDINATED IMPORT JOURNEY</span>
-            <div className="flow-map" aria-hidden="true">
-              <span className="flow-node node-a" />
-              <span className="flow-node node-b" />
-              <span className="flow-node node-c" />
-              <span className="flow-node node-d" />
-              <span className="flow-node node-e" />
-              <span className="flow-line line-a" />
-              <span className="flow-line line-b" />
-              <span className="flow-line line-c" />
-              <span className="flow-line line-d" />
-              <span className="flow-line line-e" />
-              <span className="flow-line line-f" />
-              <span className="flow-line line-g" />
-              <span className="flow-line line-h" />
-            </div>
-            <div className="art-card-footer">
-              <span>INDIA · ORIGIN</span>
-              <span className="footer-dash" />
-              <span>NIGERIA · DELIVERY</span>
-            </div>
-          </div>
+        <div className="hero-art">
+          <Image
+            alt="OTITO GLOBAL colleagues coordinating shipments between India and Nigeria at a port-side logistics office"
+            className="hero-image"
+            priority
+            sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1000px) 46vw, 40vw"
+            src={homePageImage}
+          />
         </div>
         <div className="hero-index">
           <span>01</span>

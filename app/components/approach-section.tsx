@@ -13,9 +13,7 @@ export function ApproachSection() {
         </h2>
         <div className="intro-copy">
           <p>
-            We simplify importing into Nigeria by coordinating sourcing,
-            shipping, inspections, customs clearance, regulatory documentation
-            and final delivery as one connected service.
+            We simplify importing and exporting to and from Nigeria by coordinating sourcing, shipping, inspections, customs clearance, regulatory documentation, and final delivery as one connected service.
           </p>
           <p>
             With Nigeria-based operations and partners in India and global
