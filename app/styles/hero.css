@@ -120,7 +120,7 @@ p {
 .hero h1 {
   margin-bottom: 25px;
   font-family: var(--serif);
-  font-size: clamp(10px, 6.4vw, 60px);
+  font-size: clamp(10px, 6.4vw, 3.25rem);
   font-weight: 400;
   letter-spacing: -0.065em;
   line-height: 0.99;

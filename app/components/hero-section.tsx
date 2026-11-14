@@ -9,7 +9,7 @@ export function HeroSection() {
         <div className="hero-copy">
           <p className="eyebrow">
             <span className="eyebrow-line" />
-            India and Nigeria import facilitation
+            Trading from the World to West Africa
           </p>
           <h1>
             Everything your business needs
@@ -21,18 +21,6 @@ export function HeroSection() {
             final delivery, we coordinate your import through one responsible
             service partner.
           </p>
-          <div className="hero-actions">
-            <Link className="button button-dark" href="/services">
-              Explore import services
-            </Link>
-            <Link className="text-link" href="/team">
-              Meet our team
-            </Link>
-          </div>
-          <div className="hero-footnote">
-            <span className="status-dot" />
-            Nigeria-based coordination with India and global partners
-          </div>
         </div>
         <div className="hero-art">
           <Image
