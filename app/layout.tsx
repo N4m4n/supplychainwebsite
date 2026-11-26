@@ -2,15 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "[Company Name] | Nigeria Import Facilitation",
+  title: "OTITO GLOBAL | Logistics & Advisory",
   description:
-    "One coordinated import journey into Nigeria, from overseas sourcing and freight to customs clearance and final delivery.",
+    "Connecting the world to Nigeria and Nigeria to the world with trusted logistics, import and export coordination.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
       <body>
+        {children}
       </body>
     </html>
   );
